@@ -1,0 +1,73 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 50px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: #114C92;
+}
+
+.navigation{
+    height: 40px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.icons{
+    height: 40px;
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-family: 'Far From Homecoming', sans-serif;                                            
+    color: white;
+    margin-top: 40%;
+    margin-left: 25%;
+    font-size: 5.5rem;
+}
+
+h2{
+    font-family: 'Far From Homecoming', sans-serif;                                            
+    color: white;
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;;                                      
+    color: white;
+    font-size: 2rem;
+}
+
+button{
+    height: 35px;
+    width: 150px;
+    color: #b11313;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #114C92;
+}
+
+
+p{
+    color: white
+}

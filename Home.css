@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: #b11313;
+
+}
+nav{
+    border: 2px solid red;
+    height: 42px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: #b11313;
+}
+
+.navigation{
+    height: 40px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.icons{
+    height: 40px;
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.log{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    color: white;
+}
+figure{
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.comment{
+    height: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 27%;
+    justify-content: space-between;
+}
+
+
+main{
+    border: 2px solid rgb(91, 82, 30);
+    display: flex;
+    justify-content: space-between;
+    background-color: #114c92;
+}
+
+footer{
+
+}
+
+h1{
+    font-family: 'Far From Homecoming', sans-serif;                                            
+    color: white;
+    margin-top: 40%;
+    margin-left: 40%;
+    font-size: 5rem;
+}
+h2,h3{
+    font-family: 'Far From Homecoming', sans-serif;                                            
+    color: white;
+    font-size: 1.5rem;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    height: 35px;
+    width: 150px;
+    color: #b11313;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    size: 0.5rem;
+}
+
+input{
+    width: 300px;
+    border-radius: 80px;
+}
+
+::placeholder{
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+i{
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+}
+
+
